@@ -2,6 +2,7 @@
 
 ## Environment Setup
 
+1. Download and install [docker desktop](https://www.docker.com/products/docker-desktop/) for your appropriate OS.
 1. Clone this repository: `git clone https://github.com/UMass-RC/unity-web-portal-docker.git && cd unity-web-portal-docker`
 1. Clone the web portal: `git clone -b <VERSION> https://github.com/UMass-RC/unity-web-portal.git`
     1. Set up the web portal following the readme [here](https://github.com/UMass-RC/unity-web-portal).
