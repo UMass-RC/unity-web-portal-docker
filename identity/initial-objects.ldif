@@ -4,8 +4,8 @@ gidNumber: 500
 objectClass: posixGroup
 objectClass: top
 structuralObjectClass: posixGroup
-memberUid: admin1_umass_edu
-memberUid: admin2_umass_edu
+memberUid: admin1_domain_edu
+memberUid: admin2_domain_edu
 
 dn: ou=groups,dc=unity,dc=rc,dc=umass,dc=edu
 objectClass: organizationalUnit
@@ -146,7 +146,7 @@ dn: cn=user2_domain_edu,ou=users,dc=unity,dc=rc,dc=umass,dc=edu
 cn: user2_domain_edu
 gidNumber: 1003
 givenName: User
-homeDirectory: /home/user2_umass_edu
+homeDirectory: /home/user2_domain_edu
 loginShell: /bin/bash
 mail: user2@domain.edu
 objectClass: inetOrgPerson
@@ -154,7 +154,7 @@ objectClass: posixAccount
 objectClass: top
 objectClass: ldapPublicKey
 sn: Two
-uid: user2_umass_edu
+uid: user2_domain_edu
 uidNumber: 1003
 
 dn: cn=user3_domain_edu,ou=users,dc=unity,dc=rc,dc=umass,dc=edu
@@ -258,7 +258,7 @@ objectClass: posixGroup
 objectClass: top
 gidNumber: 10000
 structuralObjectClass: posixGroup
-cn: pi_user1_umass_edu
+cn: pi_user1_domain_edu
 memberUid: user1_domain_edu
 memberUid: user3_domain_edu
 memberUid: admin1_domain_edu
@@ -268,7 +268,7 @@ objectClass: posixGroup
 objectClass: top
 gidNumber: 10001
 structuralObjectClass: posixGroup
-cn: pi_user2_umass_edu
+cn: pi_user2_domain_edu
 memberUid: user2_domain_edu
 memberUid: user5_domain_edu
 memberUid: user6_domain_edu
@@ -278,5 +278,5 @@ objectClass: posixGroup
 objectClass: top
 gidNumber: 10002
 structuralObjectClass: posixGroup
-cn: pi_user2_umass_edu
+cn: pi_user1_domain2_edu
 memberUid: user1_domain2_edu
