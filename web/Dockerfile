@@ -25,4 +25,6 @@ COPY phpldapadmin-config.php /etc/phpldapadmin/config.php
 COPY phpmyadmin-config.php /usr/share/phpmyadmin/config.inc.php
 
 # Start apache2 server
-CMD [“apache2ctl”, “-D”, “FOREGROUND”]
+EXPOSE 80
+
+CMD ["apache2ctl", "-D", "FOREGROUND"]

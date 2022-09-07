@@ -16,4 +16,6 @@ RUN service mysql start; \
 
 RUN rm -rf /tmp/sql-init.sql
 
+EXPOSE 3306
+
 CMD ["mysqld"]

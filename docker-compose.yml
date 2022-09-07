@@ -3,21 +3,16 @@ services:
   identity:
     hostname: identity
     build: identity
-    ports:
-      - "8020:80"
   web:
     hostname: web
     build: web
     ports:
       - "8000:80"
     volumes:
-      - $PWD/unity-shib-portal:/var/www/unity-shib-portal
       - $PWD/unity-web-portal:/var/www/unity-web-portal
   sql:
     hostname: sql
     build: sql
-    ports:
-      - 8010:80
 networks:
   default:
     name: unity_dev_network

@@ -26,4 +26,6 @@ RUN rm -rf /tmp/unity-config.ldif
 RUN rm -rf /tmp/unity-add.ldif
 RUN rm -rf /tmp/initial-objects.ldif
 
+EXPOSE 389
+
 CMD ["slapd", "-h", "ldap:/// ldapi:///", "-u", "openldap", "-g", "openldap", "-d", "stats"]
